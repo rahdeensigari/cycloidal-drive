@@ -1,4 +1,4 @@
-# November 12 - Overview
+# November 11 - Overview
 
 I'm not actually going to start designing yet today, but I want to set some of my design criteria and intent. I've made a lot of robotics actuators in the past, and I intend for this one to be my fifth and hopefully most powerful, reliable, and most efficient iteration. While all of the actuators that I've made in the past have been reduced through planetary gearboxes, I instead plan on using a cycloidal drive for this, as it better reflects what are in commercial robotic actuators. I'm also going to drive this with an Eaglepower LA8308 90KV drone motor and an ODrive S1, as I have experience with both of these and know that they work reliably.
 
@@ -7,3 +7,13 @@ I'm not actually going to start designing yet today, but I want to set some of m
 The eventual goal with this is to either create a quadrupedal robot or a 6-dof robotic arm.
 
 **Total Time Spent: 0.24 Hours**
+
+# November 12 - Started CAD
+
+I'm going to jump straight into CAD today. As with any other good CAD design, I'm going to start with a parametric layout sketch to define the dimensions of the actuator before I start more high fidelity modelling. First, considering that the motor I plan on using is 91.8mm in diameter, I want the overall actuator to have a diameter of around 120mm. I started by sketching the position of both the motor and the controller:
+
+<img width="627" height="502" alt="image" src="https://github.com/user-attachments/assets/887d0fab-a237-4a8d-8d7b-ebbc6acb05f8" />
+
+The rest of the time in this journal entry was spent researching the actual mechanics of a cycloidal drive, I'll update on what I found in a future entry.
+
+**Total Time Spent: 0.77 Hours**
