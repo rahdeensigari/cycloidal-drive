@@ -14,6 +14,8 @@ I'm going to jump straight into CAD today. As with any other good CAD design, I'
 
 <img width="627" height="502" alt="image" src="https://github.com/user-attachments/assets/887d0fab-a237-4a8d-8d7b-ebbc6acb05f8" />
 
-The rest of the time in this journal entry was spent researching the actual mechanics of a cycloidal drive, I'll update on what I found in a future entry.
+I then spent some time researching the actual mechanics on cycloidal drives. I'm going to settle with a 10:1 reduction to maximize torque while still keeping the actuator backdriveable and meeting the criteria of a quasi-direct-drive actuator. Luckily, I actually found a featurescript that can generate the cycloid disk for me, as well as the layout sketches for all of the pins (of course, I did research the actual formula to create the shape, it is quite interesting and I would recommend reading [it](https://blog-assets.solidworks.com/uploads/sites/3/Building-a-Cycloidal-Drive-with-SOLIDWORKS.pdf).
 
-**Total Time Spent: 0.77 Hours**
+<img width="774" height="636" alt="image" src="https://github.com/user-attachments/assets/979b97b3-3535-4bec-b557-7a32c81d17e7" />
+
+**Total Time Spent: 1.04 Hours**
