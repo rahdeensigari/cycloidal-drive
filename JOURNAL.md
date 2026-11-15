@@ -20,7 +20,7 @@ I then spent some time researching the actual mechanics on cycloidal drives. I'm
 
 **Total Time Spent: 1.04 Hours**
 
-# November 13 - Continued Working on CAD
+# November 13 - Layout Sketch and Cylcoids
 
 I started today by figuring out how I am going to incorporate the outside pins. My plan is going to be to use steel dowel pins that I'm going to adhere to the walls of the frame with CA. The optimal design would be to use actual bearings, but I don't think that is necessary for this.
 
@@ -50,3 +50,35 @@ However, even after I discovered that I was still having difficulties. I still c
 <img width="765" height="830" alt="image" src="https://github.com/user-attachments/assets/22ca7db6-01e9-4487-9a4e-5b62a4b91fc5" />
 
 **Total Time Spent: 1.94 Hours**
+
+# November 14 - Figured out Cycloids and Printed Prototype
+
+I think it was just late last night because I fixed the alignment issue in like two seconds, all I had to do was use the transform tool to rotate the cycloid and shift it over to where it lines up with the bearing. You can see that the pins line up too now:
+
+<img width="751" height="717" alt="image" src="https://github.com/user-attachments/assets/1e36a8ae-54e5-400a-bf27-f691c975ebc8" />
+
+Also, really quickly, before I continue the design I want to make a 3D printable test of the concept as a whole. To do this, I started by just making a new part studio where I remade the cycloid, this time with all of the pins:
+
+<img width="882" height="700" alt="image" src="https://github.com/user-attachments/assets/aa2f6006-0099-40f5-a871-9e2ebf784f36" />
+
+I then created the second disk based off of the first and offset the output disk to match (the eccentricity was messed up in all of the photos so far, I fix this later):
+
+<img width="621" height="494" alt="image" src="https://github.com/user-attachments/assets/27f1c89d-7d4a-4692-adf9-a1bc1c2a51c5" />
+
+Kind of a skip forward, but I did finish the design of the prototype:
+
+<img width="710" height="696" alt="image" src="https://github.com/user-attachments/assets/6da77ba1-aca0-4e2a-b1a1-8abeccb04164" />
+
+First note, I tried to add at least a 1/8mm clearance between any parts that move to account for 3D printing tolerances, such as the cycloid disks and the internal pin holes. Everything structural is snap fit, if I need to get it on better I'll just glue it. I also separated the eccentric bearing and the handle to let me assembly it easier. I went and printed everything out at minimal settings, 2 walls and 5% adaptive cubic infill:
+
+<img width="1095" height="817" alt="image" src="https://github.com/user-attachments/assets/703a3533-3050-479b-b1cd-d3a1abe05f39" />
+
+Parts printed:
+
+<img width="4080" height="3072" alt="image" src="https://github.com/user-attachments/assets/d8364de9-cefc-426e-be4f-b831f2be9dc0" />
+
+But, some of the pins didn't have enough clearance, and the arm and the bearing didn't have enough strength to hold up, so I reprinted those parts with proper clearances and printing settings. I did have some difficulties when I was assembling everything, the top plate still didn't fit, so I just decided to not include it. Additionally, one of the outer pins broke off, but it still worked fine without it. Another thing was that I think I clocked the disk weirdly when I assembled it for the first time because the output bearings didn't line up, but after redoing the assembly it worked fine. With everything assembled, the geometry seemed to line up fine, meaning that I'm ready to translate this to my real design.
+
+<img width="4080" height="3072" alt="image" src="https://github.com/user-attachments/assets/492b8918-8f5b-482c-84f0-acf211727f5f" />
+
+**Total Time Spent: 1.23 Hours**
