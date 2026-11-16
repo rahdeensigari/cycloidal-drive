@@ -82,3 +82,17 @@ But, some of the pins didn't have enough clearance, and the arm and the bearing 
 <img width="4080" height="3072" alt="image" src="https://github.com/user-attachments/assets/492b8918-8f5b-482c-84f0-acf211727f5f" />
 
 **Total Time Spent: 1.23 Hours**
+
+# November 15 - Continued Layout Sketch
+
+With the geometry proved, I could continue my layout sketch further. I started by figuring out the mechanics of how I was going to mount the outer roller bearings. I was originally going to have them riding on a bolt threaded into the base, but I did some research and I think that a more elegant solution would be to use dowel pins. I was originally going to have the bearings riding directly on the dowel pins, but after some research I realized that this would not work as the pins have a positive tolerance while the bearings have a negative tolerance on the bore, resulting in an interference fit that would not really work for this application:
+
+<img width="434" height="546" alt="image" src="https://github.com/user-attachments/assets/5826151c-02f6-420b-8646-04151dd8c4bf" /><img width="600" height="562" alt="image" src="https://github.com/user-attachments/assets/d87c7615-6632-4a78-a60c-cf441daa0fe1" />
+
+An easy way to fix this is just to have the dowel pin covered by a 3D printed sleeve that bearings ride on, with spacers to get the bearing to the right position. This is also a common trick we use in FRC, which is where I got the idea. While I was trying to figure that out in my layout sketch, I kind of got distracted and started working on the inner pins instead, so I guess I will talk about that. The first thing I did was add a third part to the eccentric shaft that is lined up to the origin. This is where the internal output bearing will ride on (I still need an outer one as well). The flange is to space everything apart:
+
+<img width="602" height="258" alt="image" src="https://github.com/user-attachments/assets/0aa1c9c2-37a0-4871-bfff-dd6d8df7673d" />
+
+The disk that goes around that bearing is the output disk, and is also where the internal pins are going to be mounted. I was originally planning to use dowel pins to retain these as well, but I realized that these had to be retained on both sides, so I have to use bolts instead. This also means that I'm going to have to do have some sort of carriage on the bottom as well. I can do something clever here by having the bottom carriage be retained via a bearing wrapping around the motor output, but it does still have to be retained from the outside as well. Fitting all of this in a compact space is going to be a challenge; I will continue this tomorrow.
+
+**Total Time Spent: 0.92 Hours**
