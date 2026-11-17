@@ -96,3 +96,37 @@ An easy way to fix this is just to have the dowel pin covered by a 3D printed sl
 The disk that goes around that bearing is the output disk, and is also where the internal pins are going to be mounted. I was originally planning to use dowel pins to retain these as well, but I realized that these had to be retained on both sides, so I have to use bolts instead. This also means that I'm going to have to do have some sort of carriage on the bottom as well. I can do something clever here by having the bottom carriage be retained via a bearing wrapping around the motor output, but it does still have to be retained from the outside as well. Fitting all of this in a compact space is going to be a challenge; I will continue this tomorrow.
 
 **Total Time Spent: 0.92 Hours**
+
+# November 16 - Layout Sketch + Part Modelling
+
+I started today by defining some of the geometry for the dowel pins that I'm going to use, I'm probably going to use 2mm wide pins. I also thought about a little bit and what I'm probably going to do is have an interference fit on the bottom for the dowel pins to fit into and have a clearance fit on top so I can still disassemble this thing after I make it:
+
+<img width="300" height="613" alt="image" src="https://github.com/user-attachments/assets/7a953140-cd06-41f1-b4ea-ad52ce1d2181" />
+
+Honestly, I'm still not good enough at visualization to continue fully defining this layout sketch without getting some basic geometry modelled first, so I want to at least model enough to where I can get a good enough idea of what I plan to make to where I can continue the layout sketch. The first thing I did to do this was to import the motor into the assembly to get a general idea of where it's going to be placed:
+
+<img width="762" height="845" alt="image" src="https://github.com/user-attachments/assets/36b6f901-9c95-4c87-83a1-9a2661f3db8d" />
+
+While I was already in the assembly, I also derived the encoder mount from another [project](https://github.com/rahdeensigari/bldc-qdd-actuator) that I made that also used the same motor. I did have to change it slightly though, as for some reason it was too long originally. It is also important to note that I am of course using a diametric magnet here for the encoder to work properly. I'm going to have the ODrive mounted directly under this to read the poles from the magnet:
+
+<img width="644" height="545" alt="image" src="https://github.com/user-attachments/assets/4a46c671-dce0-4f9b-8235-995eda586fe4" />
+
+Speaking of which, I also had to change the height of the base to allow for the magnet and the encoder to be spaced 1mm apart, which is the distance that ODrive themselves recommend for proper functionality (that short green line at the bottom is the encoder profile):
+
+<img width="1054" height="349" alt="image" src="https://github.com/user-attachments/assets/7cbd45e4-0f03-4808-8b99-5a3062f88a8a" />
+
+Anyways, with that out of the way I kind of want to start modelling stuff. Specifically I want to start with the base that the motor is mounted on. I can do something clever here, since the motor is slightly curved at the top, I can split the top of the base into two parts then protrude the top part out a bit and slightly cover the motor. This gives me more material around the dowel pin, as currently it would be quite close the the walls of the mount:
+
+<img width="637" height="668" alt="image" src="https://github.com/user-attachments/assets/1c1fe62c-db09-406c-8399-8d3ac5213dde" />
+
+I achieved this by deriving the outer part of the motor into my part studio then using that as a reference for the curve (the outrunner is colored red to signify that it is a derived part, albeit it is pretty obvious nevertheless):
+
+<img width="562" height="800" alt="image" src="https://github.com/user-attachments/assets/409cad6f-4609-4e24-b339-edcea743581e" />
+<img width="757" height="690" alt="image" src="https://github.com/user-attachments/assets/f262dd6f-92d6-45f7-bf6a-77406cf81f80" />
+<img width="1334" height="568" alt="image" src="https://github.com/user-attachments/assets/b0ed0533-7945-44e6-aa49-f822af1b2bb5" />
+
+On second thought, 2mm might be too small for the dowel pins. I'm going to bump the diameter up to 2.5mm instead. I also added the holes for these in the top flange part. I want to this to be a tight fit, so I'm only adding 0.125mm to account for 3DP tolerances:
+
+<img width="933" height="766" alt="image" src="https://github.com/user-attachments/assets/8adf92d1-9a40-4016-b782-a26492659e93" />
+
+**Total Time Spent: 1.52 Hours**
