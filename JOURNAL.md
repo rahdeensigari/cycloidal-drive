@@ -130,3 +130,21 @@ On second thought, 2mm might be too small for the dowel pins. I'm going to bump 
 <img width="933" height="766" alt="image" src="https://github.com/user-attachments/assets/8adf92d1-9a40-4016-b782-a26492659e93" />
 
 **Total Time Spent: 1.52 Hours**
+
+# November 17 - Developed Motor Mount and Output Pins
+
+I started first by adding mounting holes for the motor in the bottom of the base. These are counterbore M4 clearance holes that use the bolts the motor comes with to fasten the motor to the base:
+
+<img width="1123" height="719" alt="image" src="https://github.com/user-attachments/assets/e750d4f9-f144-4a95-8158-d92537857941" />
+
+Next, I added bolts to connect the base and the top flange together. I achieve this by using an M3 flathead bolt with an embedded nut at the bottom of the base. Depending on how the design develops, I may remove these later in favor of a larger bolt connecting all of the stages together. It was also a challenge to space these holes apart, as there are 11 outer pins, making it functionally impossible to have three evenly spaced holes that don't interfere with the pins. To fix this, I had to have some of the holes be at a different angle from each other. I spent way too long trying to figure out an alternative way to do this but eventually just decided on having them be different angles apart:
+
+<img width="1069" height="967" alt="image" src="https://github.com/user-attachments/assets/906d4272-4070-420e-894f-f16d40b919c2" /><img width="301" height="321" alt="image" src="https://github.com/user-attachments/assets/61a2e78d-85a5-4609-96bc-1266dd20fb6d" />
+
+The last thing I was able to do for today was work on the outer pin assembly. The first thing I did was have the dowel pins cut deeper into the flange, most likely meaning I am going to have to use longer pins. I haven't done the top mount for the pins yet so I can't determine their exact length until that is complete. As for the bearing stack, I was originally going to have a long outer spacer over the pin with a diameter of 4mm, but I quickly realized that for this to work properly the spacer would need to have 1mm thick walls, which is more finnicky then I would have liked. Instead, I decided to switch to 6mm ID bearings which gives me more thickness for the internal spacer. Since these spacers are thinner, this also means that I can double stack the bearings on each pin. For the spacers themselves, I was (as mentioned before) going to have an internal spacer around the dowel pins that the bearings were mounted on, but I quickly realized that a better way to do this would be to have three parts for each pin, one part for the bottom that spaced the bearing up while acting as the internal spacer, another that did the same thing for the second bearing, and a final spacer (which may just be the terminating disk):
+
+<img width="598" height="840" alt="image" src="https://github.com/user-attachments/assets/75daebbc-d6ab-4687-af09-ff260e695d34" />
+
+Kind of poor journal quality today, everything I did was done at school where GitHub is blocked so I couldn't journal in real time like I normally do.
+
+**Total Time Spent: 2.43 Hours**
