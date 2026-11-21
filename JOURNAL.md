@@ -148,3 +148,28 @@ The last thing I was able to do for today was work on the outer pin assembly. Th
 Kind of poor journal quality today, everything I did was done at school where GitHub is blocked so I couldn't journal in real time like I normally do.
 
 **Total Time Spent: 2.43 Hours**
+
+# November 19 - 20 - Developed Outer Pins, Changed Gear Ratio, Worked on Eccentric Shaft
+
+First, for the output pins, I added shims between the bearings and put everything together in the main assembly:
+
+<img width="934" height="953" alt="image" src="https://github.com/user-attachments/assets/a55d0716-5b84-4794-8d0c-c1d8019e4628" />
+
+I've also decided to make a pretty big change, and that is to reduce the gear ratio from 10:1 to 9:1. I have a couple of reasons for doing this, but the main one is that it makes sourcing the outer pin bearings easier as I don't need to buy another pack just to get an extra 4 bearings, and it also makes things such as the motor mount flange retention that I was dealing with in the last journal entry significantly easier. Luckily, my CAD is pretty parametric, so all I had to do to change this was change the lobe count variable then make some minor fixes to some sketches. I also decreased the overall diameter to 115mm and did 5 holes for the motor mount flange connection instead of 3:
+
+<img width="864" height="884" alt="image" src="https://github.com/user-attachments/assets/9561afc8-ba62-43a2-8ecb-97b356240bed" />
+
+I then started to model the eccentric bearing shaft. Each segment of this needs to be its own separate part for it to be able to get assembled. First I made the actual base where the motor gets mounted to. I have four countersunk holes that attach the base directly to the motor, with a flange eccentric to the center of the shaft where the inner race of the first disk bearing lies on:
+
+<img width="614" height="573" alt="image" src="https://github.com/user-attachments/assets/e7be3d0d-ca70-4abe-a2d9-42f4c4a6c4c2" />
+
+Next was the actual shaft where the cycloids themselves rest on. This part is separated into two segments, one for each disk. There are also two flanges in the middle where the inner race of the bearing is retained by. I also subtracted the diameter of the shaft for the bearings by 1/8mm to account for the negative tolerances on the bearing as well as 3D printing tolerances:
+
+<img width="485" height="472" alt="image" src="https://github.com/user-attachments/assets/d5ca5ed2-5685-41ce-8abc-e2f6fee90b73" />
+
+I then modelled the motion of both cycloidal disks in the assembly. Of course, I can't upload a video of it working here, but I did use mate animations to ensure that everything will move as intended:
+
+<img width="734" height="679" alt="image" src="https://github.com/user-attachments/assets/d4ad0b06-775e-439f-af72-7e5e8ca96f1b" />
+<img width="874" height="816" alt="image" src="https://github.com/user-attachments/assets/00505914-e4f0-42fa-8fda-f7a901ebd7ca" />
+
+**Total Time Spent: 1.92 Hours**
