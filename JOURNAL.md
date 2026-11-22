@@ -173,3 +173,23 @@ I then modelled the motion of both cycloidal disks in the assembly. Of course, I
 <img width="874" height="816" alt="image" src="https://github.com/user-attachments/assets/00505914-e4f0-42fa-8fda-f7a901ebd7ca" />
 
 **Total Time Spent: 1.92 Hours**
+
+# November 21 - Developed Eccentric Shaft and Inner Pins
+
+I lost a lot of progress on this journal entry because I reloaded the web page, so I'm just going to have to briefly summarize what I did. The first thing that I did was split the segment of the eccentric shaft where the actual disks are connected to into one individual segment for each disk. This will make printing and assembling this much easier. I also decided to get rid of the mounting holes I had for the motor mounting base and the flange, and I'm instead going to have external connection holes that go through every part of the assembly to connect it together as I have done in many of my previous actuators. Doing this also gives me a way to rest the actuator while testing. After that I proceeded to modelling the inner pins, which is going to be the hardest part of this design. For the actual pin bearings themselves, I'm going to use 8mm OD 5mm ID ball bearings using the same dowel pin method as I did for the outer bearings. The more important part however is how I'm going to retain the pins. I need two plates, one on the bottom and one on the top where the pins can be mounted onto. For the bottom plate, I'm going to use the first shaft segment as a place to mount a bearing onto where the plate is going to be retained. For this I'm going to use a 6807zz bearing (on a side note, the difference in price between McMaster and Amazon when it comes to bearings is astounding):
+
+<img width="906" height="682" alt="image" src="https://github.com/user-attachments/assets/049826e4-f42a-4b80-b8e0-df4db3a865ad" />
+
+I also spent a decent chunk of time organizing everything into subassemblies, specifically the eccentric shaft and the disks. Unfortunately this broke the animations I had earlier, but this will be fixed once I finish the rest of the eccentric shaft:
+
+<img width="892" height="895" alt="image" src="https://github.com/user-attachments/assets/e94603be-6d5c-46e1-a004-f495abf511d7" />
+
+I also created this guard around the outer roller pins. I left 0.5mm of clearance between the bearings and the print and 3mm between the actual disk:
+
+<img width="991" height="831" alt="image" src="https://github.com/user-attachments/assets/7122b2bb-1dd3-4b7a-9fbe-fb6e8607e541" />
+
+Here is a section view of everything so far:
+
+<img width="1268" height="786" alt="image" src="https://github.com/user-attachments/assets/bc6dc4a3-3090-4555-97bc-8091044a2440" />
+
+**Total Time Spent: 1.63 Hours**
