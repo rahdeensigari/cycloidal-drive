@@ -193,3 +193,20 @@ Here is a section view of everything so far:
 <img width="1268" height="786" alt="image" src="https://github.com/user-attachments/assets/bc6dc4a3-3090-4555-97bc-8091044a2440" />
 
 **Total Time Spent: 1.63 Hours**
+
+# November 22 - Developed Inner Pins and Output
+
+I want to work more on the inner pins. First I started by defining the bearing locations in my layout sketch for parametricity:
+
+<img width="245" height="858" alt="image" src="https://github.com/user-attachments/assets/10436ceb-9878-4d4b-95a1-79c1ac83dcf6" />
+
+After that I started working on the output plate that carries all of the inner pins bearings. I decided that I'm still going to have the bearing riding on a 3D printed sleeve, but this time held together by an M3 bolt. This simplifies assembly and holds everything together much nicer than dowel pins. This plate sits on top of the bearings and is where any attachment like an arm is mounted from. It also needs to be supported by two bearings, one in the middle where the eccentric shaft ends, and one bearing on the outside (haven't added the outer bearing yet):
+
+<img width="539" height="398" alt="image" src="https://github.com/user-attachments/assets/36139c2b-78c8-4f0d-9981-50ae6fa1a876" />
+
+I then started modelling the actual spacers for the bearing stacks. This is really similar to what I did for the outer pins, so I'm not going to dwell on this too much. Basically the only difference is that I'm using a bolt instead of a dowel pin, and the shim needs to be 3D printed because I couldn't find any COTS shims that would work.
+
+<img width="463" height="733" alt="image" src="https://github.com/user-attachments/assets/467ee0c5-0c54-47a1-8dbb-7a166aa0c799" />
+<img width="324" height="539" alt="image" src="https://github.com/user-attachments/assets/0c1f1116-94bb-44ad-b517-830909cac574" />
+
+**Total Time Spent: 1.85 Hours**
