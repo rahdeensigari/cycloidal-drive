@@ -210,3 +210,36 @@ I then started modelling the actual spacers for the bearing stacks. This is real
 <img width="324" height="539" alt="image" src="https://github.com/user-attachments/assets/0c1f1116-94bb-44ad-b517-830909cac574" />
 
 **Total Time Spent: 1.85 Hours**
+
+# November 23 - Continued Inner Pins, Shaft
+
+Continued inner pins today, specifically the bottom connector piece. How I plan to do this is to have a flange on the bottom to retain the entire assembly, with holes on the bottom for inset nuts:
+
+<img width="590" height="366" alt="image" src="https://github.com/user-attachments/assets/02e4bafb-7f01-4170-aa3d-758ee02914b6" />
+<img width="512" height="435" alt="image" src="https://github.com/user-attachments/assets/64a64fa4-9d45-44c7-bf1f-9314f57ceffc" />
+
+I also integrated a spacer for the bearing stack on it:
+
+<img width="302" height="383" alt="image" src="https://github.com/user-attachments/assets/d7bcc911-ab1a-466d-9f0c-fee4707753e2" />
+<img width="551" height="774" alt="image" src="https://github.com/user-attachments/assets/7790d42c-b817-4526-a098-f89f92023d26" />
+
+I am going to print this part out of PLA as a test though, because I feel like this is kind of pushing my manufacturing capabilities, and of course one of the main things I hope to gain from this is an increase in my DFM skills. (Update, it printed fine):
+
+<img width="3072" height="4080" alt="image" src="https://github.com/user-attachments/assets/3760ac79-bdf1-42ac-8ce5-eacc56bdb66b" />
+
+Also after talking to some people about it I decided to actually use a trapped nut (meaning I pause the part while it's printing then put the nut in) rather than relying on friction while assembing:
+
+<img width="419" height="342" alt="image" src="https://github.com/user-attachments/assets/2a79546f-0bd9-46cd-b166-e39d150020e3" />
+
+With that I completed the inner pin setup:
+
+<img width="636" height="578" alt="image" src="https://github.com/user-attachments/assets/088421b3-a4c8-49e8-8a7f-6ceaf1a74390" />
+<img width="826" height="872" alt="image" src="https://github.com/user-attachments/assets/abb55277-890a-4a6b-83b0-eca8fd0d373f" />
+
+After that, I created the final shaft segment and added the through hole. I'm going to retain them with a similar method as I did the inner pins with the inset nuts:
+
+<img width="486" height="498" alt="image" src="https://github.com/user-attachments/assets/242e6a35-ad91-4383-8815-683dedc13260" />
+
+I also spent a lot of time trying to figure out how to get the animations to work in the main assembly, but ultimately could not figure it out. I'll tackle that tommorow.
+
+**Total Time Spent: 1.8 Hours**
