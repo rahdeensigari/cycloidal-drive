@@ -243,3 +243,15 @@ After that, I created the final shaft segment and added the through hole. I'm go
 I also spent a lot of time trying to figure out how to get the animations to work in the main assembly, but ultimately could not figure it out. I'll tackle that tommorow.
 
 **Total Time Spent: 1.8 Hours**
+
+# November 24 - Figured Out Mates and Output Disk
+
+I spent ~20 minutes figuring out the mate animations from yesterday. How I eventually got it work was by using gear relations with the distinct revolute mates. Obviously I can't post a video here but just trust that it works:
+
+<img width="855" height="948" alt="image" src="https://github.com/user-attachments/assets/6a4360a5-22bd-4f85-9a45-4cae3a4d2027" />
+
+I'm actually pretty close to being finished here. The last major thing I want to add is a secondary output bearing. This was something that was lacking in my old actuator designs that I think will allow for more stability. The problem is that the only bearing big enough for this is really big. Unfortunately, I'm just going to have to make it work. I increased the height of the output and added a flange at the top for the bearing to be retained by. Also, I have the countersunk bolts inset so that I don't need to order another length and can just use the same length for everything:
+
+<img width="1072" height="260" alt="image" src="https://github.com/user-attachments/assets/8d249d5c-0bed-4024-9fb1-e2d7a89185f5" />
+
+**Total Time Spent: 0.53 Hours**
