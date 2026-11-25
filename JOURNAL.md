@@ -255,3 +255,51 @@ I'm actually pretty close to being finished here. The last major thing I want to
 <img width="1072" height="260" alt="image" src="https://github.com/user-attachments/assets/8d249d5c-0bed-4024-9fb1-e2d7a89185f5" />
 
 **Total Time Spent: 0.53 Hours**
+
+# November 25 - Finished Output and Final Touches to CAD
+
+I started today by completing the output. I had to figure out how to retain the output bearing from the other side:
+
+<img width="1159" height="796" alt="image" src="https://github.com/user-attachments/assets/e045fab8-de5c-4b3c-949a-98ee03f5e39b" />
+
+How I did this was by incorporating another flange under the bearing. This part also has holes on the bottom to help retain the output dowel pins, although it is not visible in that photo. I am using 34mm long steel pins for the output pins. With that done, I can move on to some final touches and then I'll actually be done with this design. The first thing I want to add is holes for something to mount onto the output. I used M3 heat-set inserts for this as I already have a lot of them in stock:
+
+<img width="1351" height="880" alt="image" src="https://github.com/user-attachments/assets/ab6433bc-293d-469d-91cf-2d3e29aa3807" />
+
+Then I added all of the holes to mount the ODrive. This is something that I've done before in one of my other actuator designs, so I'm not too concerned with this. I first started by adding the holes to mount the board itself. Note the two slots. One of them is for the terminal block pins to have clearance, the other is for the wires from the motor to come through:
+
+<img width="766" height="601" alt="image" src="https://github.com/user-attachments/assets/f70bcafb-d3b2-4bf6-90ba-e95f122b8dce" />
+
+For the actual case itself, there's literally no reason to remake it. I just derived it from my old actuator design and added the holes for it in the right spot:
+
+<img width="795" height="663" alt="image" src="https://github.com/user-attachments/assets/00f1483e-b3a2-4a51-8114-060d9fdb7d86" />
+
+One thing I did add that was missing in my other actuaotrs design was this spacer between the base and the actual PCB, this prevents the board from bending:
+
+<img width="587" height="748" alt="image" src="https://github.com/user-attachments/assets/8bc73a8f-4ce0-410a-ab9f-07feb071da7d" />
+<img width="833" height="622" alt="image" src="https://github.com/user-attachments/assets/d6c2f6da-874e-4fac-b9a2-f0f06af535b4" />
+
+Because I added the spacers, the distance between the encoder and the magnet changed, meaning I could shorten the entire actuator by 1.5mm:
+
+<img width="948" height="924" alt="image" src="https://github.com/user-attachments/assets/3e7f6299-0458-414b-8577-7a9ef024b800" />
+
+The next thing I want to add, and this is pretty important, are the bolts that connect all the stages together. For this I'm going to use some 6 prongs from the side of each stage that are going to have an M5 bolt running through to connect all the stages together:
+
+<img width="808" height="793" alt="image" src="https://github.com/user-attachments/assets/6cc344f4-9868-4a56-bf57-63866073c4ec" />
+<img width="950" height="938" alt="image" src="https://github.com/user-attachments/assets/b2af0cc6-de9f-4c45-a839-5513e63a262b" />
+
+As you can see, I countersunk the bolt head to give whatever arm I attach on this more clearance to move. I also had room to use nut cutouts at the bottom, which eliminates the need for a nut:
+
+<img width="382" height="406" alt="image" src="https://github.com/user-attachments/assets/db8d7c34-efd2-4fca-a008-67d5deca6ddf" />
+
+One more thing then I'm practically done. I'm going to add vents for the motor. This is partially for heat dissipation, but also just for aura. I wanted to do a different pattern but I just decided to do the same slot pattern I've done for all my other actuators:
+
+<img width="391" height="429" alt="image" src="https://github.com/user-attachments/assets/3b0a7dd6-06a9-4d8d-bd4e-1883d7376ccc" />
+
+With that, the design of my actuator is complete:
+
+<img width="785" height="809" alt="image" src="https://github.com/user-attachments/assets/2fc50b03-47fd-466d-be86-80242999626f" />
+
+I am going to get the design reviewed, then I can get all the documentation together and apply for funding!
+
+**Total Time Spent: 2.04 Hours**
