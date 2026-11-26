@@ -341,6 +341,6 @@ Before I export the CAD, there are some changes that I want to make. I basically
 
 After doing that, I exported all of the printed parts as a zip file and also put it in the [docs](/docs) folder. I'm going to link the CAD document in the README rather than exporting the entire assembly as a .STEP file. I also wrote a quick writeup in the README and linked the CAD and BOM. With that I should be ready to submit.
 
-(Thank you reviewers!)
+**REVIEWER NOTE:** My submission got flagged as a fail because of a lack of CAD, I tried uploading the full STEP file but it was too big. The CAD is in the README, I linked directly to the Onshape document with export permissions on. Thank you!
 
 **Total Time Spent: 1.06 Hours**
