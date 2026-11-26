@@ -302,4 +302,8 @@ With that, the design of my actuator is complete:
 
 I am going to get the design reviewed, then I can get all the documentation together and apply for funding!
 
-**Total Time Spent: 2.04 Hours**
+One last change I made, I changed the countersunk bolts for the shaft and the inner pins to socket heads instead for more strength and to stop them from getting stripped:
+
+<img width="1156" height="761" alt="image" src="https://github.com/user-attachments/assets/4306ac44-bbde-4f82-aadb-bbbd06167db8" />
+
+**Total Time Spent: 2.51 Hours**
