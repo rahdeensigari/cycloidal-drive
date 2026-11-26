@@ -1,2 +1,35 @@
 # cycloidal-drive
-A cycloidal actuator made with an LA8308 motor and ODrive S1 controller.
+A 9:1 cycloidal actuator made with an LA8308 90kv motor and ODrive S1 controller. I have made a lot of planetary actuators in the past, but I have always wanted to create a cycloidal actuator. This specific design was intended to be quasi-direct-drive, meaning it is powered with a powerful motor and a low gear reduction to keep torque high while also maximizing back-drivability. That combined with the low backlash of cycloidal actuator makes this actuator ideal for proprioceptive robotic applications. Every part in this actuator (other then components such as bearing and fasteners) was designed to be 3D printed out of basic materials like PLA and PETG rather than machined.
+
+<img width="937" height="892" alt="image" src="https://github.com/user-attachments/assets/af4ef0ff-b4c1-45a0-846d-6bd23a6b2094" />
+<img width="1257" height="903" alt="image" src="https://github.com/user-attachments/assets/bc5c793c-aec9-477c-a31a-d9e70cac0f39" />
+
+If you are interested in building this yourself, refer to the CAD and BOM below. The links and prices in the BOM are only a guideline, if you can find a part for cheaper with the same specifications, it will work just fine. Also note that a lot of the prices are inflated as parts like fasteners and bearings must be bought in bulk. Use the CAD document below as a reference for assembly, as well as to export any 3D printed parts. Additionally, you can view the [docs](/docs) folder for a zip file of all of the 3D printed parts.
+
+# [CAD](https://cad.onshape.com/documents/d2bbe7ba0fc76ce29389e5ce/w/552089f0c1384d16abc18e5c/e/3f6ea8d5d52479733501d698?renderMode=0&uiState=6b087df19cdc5287dbca7edd)
+
+# BOM
+
+|Part Name                                                |Quantity|Unit Price (USD, verified listing or benchmark)|Extended Price for Required Quantity (USD)|Purchase Link                                                                        |
+|---------------------------------------------------------|--------|-----------------------------------------------|------------------------------------------|-------------------------------------------------------------------------------------|
+|LA8308 90KV BLDC Motor                                   |1       |71.29                                          |71.29                                     |https://www.aliexpress.us/item/3256813024632737.html                                 |
+|1/8" Thick x 1/4" OD Diametric Magnet (McMaster 5862K203)|1       |3.74                                           |3.74                                      |https://www.mcmaster.com/5862K203/                                                   |
+|106-ZZ Bearing (6x10x3 mm; MR106-ZZ equivalent)          |40      |0.7145                                         |28.58                                     |https://www.amazon.com/uxcell-MR106ZZ-6mmx10mmx3mm-Shielded-Miniature/dp/B075CNMWDZ  |
+|Outer Pin Shims                                          |20      |12.05 per 25                                   |12.05                                     |https://www.mcmaster.com/99432A341/                                                  |
+|2.5 mm OD x 32 mm Long Dowel Pin (McMaster 91585A358)    |10      |2.77                                           |27.7                                      |https://www.mcmaster.com/91585A358/                                                  |
+|ODrive S1                                                |1       |149                                            |149                                       |https://shop.odriverobotics.com/products/odrive-s1                                   |
+|85-ZZ Bearing (5x8x2.5 mm; MR85-ZZ equivalent)           |32      |7.69 per 10                                    |30.76                                     |https://www.amazon.com/s?k=MR85-ZZ+5x8x2.5+bearing                                   |
+|M3 Nylock Nut                                            |10      |4.88 per 100                                   |4.88                                      |https://www.mcmaster.com/90576A102/                                                  |
+|M3 x 30 mm Socket Head Cap Screw                         |10      |6.14 per 50                                    |6.14                                      |https://www.mcmaster.com/91292A022/                                                  |
+|M3 Heat-Set Insert (McMaster 94459A421; M3 x 0.5, 5.9 mm)|16      |6.07 per 25                                    |6.07                                      |https://www.mcmaster.com/94459A421/                                                  |
+|6705-ZZ Bearing (25x32x4 mm)                             |1       |7.99 per 2                                     |7.99                                      |https://www.amazon.com/uxcell-6705ZZ-Groove-Bearings-Shielded/dp/B082PSQ8QY          |
+|6815-ZZ Bearing (75x95x10 mm)                            |1       |16.09                                          |16.09                                     |https://www.amazon.com/uxcell-6815-2RS-Groove-Bearings-Shielded/dp/B082PYRJ4V        |
+|6807-ZZ Bearing (35x47x7 mm)                             |1       |6.79 per 2                                     |6.79                                      |https://www.amazon.com/HARFINGTON-Bearings-Shielded-Bearing-Conveyors/dp/B0CGM6RSNV  |
+|6806-ZZ Bearing (30x42x7 mm)                             |2       |3.405                                          |6.81                                      |https://www.amazon.com/ACROPIX-Bearings-30x42x7mm-Lubricated-Skateboard/dp/B0DS294R4Z|
+|M3 x 10 mm Button Head Cap Screw                         |8       |10.22 per 100                                  |10.22                                     |https://www.mcmaster.com/products/metric-button-head-screws/thread-size~m3/          |
+|M5 Nylock Nut                                            |6       |4.04 per 100                                   |4.04                                      |https://www.mcmaster.com/91835A114/                                                  |
+|M5 x 75 mm Socket Head Cap Screw                         |6       |11.28 per 25                                   |11.28                                     |https://www.mcmaster.com/products/socket-head-screws/thread-size~m5/length~75-mm/    |
+|                                                         |        |                                               |403.43                                    |                                                                                     |
+
+(CSV in [docs](/docs))
+
