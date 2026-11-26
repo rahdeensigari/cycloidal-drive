@@ -307,3 +307,40 @@ One last change I made, I changed the countersunk bolts for the shaft and the in
 <img width="1156" height="761" alt="image" src="https://github.com/user-attachments/assets/4306ac44-bbde-4f82-aadb-bbbd06167db8" />
 
 **Total Time Spent: 2.51 Hours**
+
+# November 26 - Documentation and Preparing to Submit
+
+I want to prepare to get this reviewed. First, I'm going to start by making a BOM. I used AI to generate an initial CSV based off what was in Onshape, then went through and confirmed all of the links. In total, the actuator adds up to a hefty $403.43, accounting for extras of parts like bearings. I have a lot of these parts already, so it will be cheaper for me ($159.07). Here is the BOM:
+
+|Part Name                                                |Quantity|Unit Price (USD, verified listing or benchmark)|Extended Price for Required Quantity (USD)|Purchase Link                                                                        |
+|---------------------------------------------------------|--------|-----------------------------------------------|------------------------------------------|-------------------------------------------------------------------------------------|
+|LA8308 90KV BLDC Motor                                   |1       |71.29                                          |71.29                                     |https://www.aliexpress.us/item/3256813024632737.html                                 |
+|1/8" Thick x 1/4" OD Diametric Magnet (McMaster 5862K203)|1       |3.74                                           |3.74                                      |https://www.mcmaster.com/5862K203/                                                   |
+|106-ZZ Bearing (6x10x3 mm; MR106-ZZ equivalent)          |40      |0.7145                                         |28.58                                     |https://www.amazon.com/uxcell-MR106ZZ-6mmx10mmx3mm-Shielded-Miniature/dp/B075CNMWDZ  |
+|Outer Pin Shims                                          |20      |12.05 per 25                                   |12.05                                     |https://www.mcmaster.com/99432A341/                                                  |
+|2.5 mm OD x 32 mm Long Dowel Pin (McMaster 91585A358)    |10      |2.77                                           |27.7                                      |https://www.mcmaster.com/91585A358/                                                  |
+|ODrive S1                                                |1       |149                                            |149                                       |https://shop.odriverobotics.com/products/odrive-s1                                   |
+|85-ZZ Bearing (5x8x2.5 mm; MR85-ZZ equivalent)           |32      |7.69 per 10                                    |30.76                                     |https://www.amazon.com/s?k=MR85-ZZ+5x8x2.5+bearing                                   |
+|M3 Nylock Nut                                            |10      |4.88 per 100                                   |4.88                                      |https://www.mcmaster.com/90576A102/                                                  |
+|M3 x 30 mm Socket Head Cap Screw                         |10      |6.14 per 50                                    |6.14                                      |https://www.mcmaster.com/91292A022/                                                  |
+|M3 Heat-Set Insert (McMaster 94459A421; M3 x 0.5, 5.9 mm)|16      |6.07 per 25                                    |6.07                                      |https://www.mcmaster.com/94459A421/                                                  |
+|6705-ZZ Bearing (25x32x4 mm)                             |1       |7.99 per 2                                     |7.99                                      |https://www.amazon.com/uxcell-6705ZZ-Groove-Bearings-Shielded/dp/B082PSQ8QY          |
+|6815-ZZ Bearing (75x95x10 mm)                            |1       |16.09                                          |16.09                                     |https://www.amazon.com/uxcell-6815-2RS-Groove-Bearings-Shielded/dp/B082PYRJ4V        |
+|6807-ZZ Bearing (35x47x7 mm)                             |1       |6.79 per 2                                     |6.79                                      |https://www.amazon.com/HARFINGTON-Bearings-Shielded-Bearing-Conveyors/dp/B0CGM6RSNV  |
+|6806-ZZ Bearing (30x42x7 mm)                             |2       |3.405                                          |6.81                                      |https://www.amazon.com/ACROPIX-Bearings-30x42x7mm-Lubricated-Skateboard/dp/B0DS294R4Z|
+|M3 x 10 mm Button Head Cap Screw                         |8       |10.22 per 100                                  |10.22                                     |https://www.mcmaster.com/products/metric-button-head-screws/thread-size~m3/          |
+|M5 Nylock Nut                                            |6       |4.04 per 100                                   |4.04                                      |https://www.mcmaster.com/91835A114/                                                  |
+|M5 x 75 mm Socket Head Cap Screw                         |6       |11.28 per 25                                   |11.28                                     |https://www.mcmaster.com/products/socket-head-screws/thread-size~m5/length~75-mm/    |
+|                                                         |        |                                               |403.43                                    |                                                                                     |
+
+I also uploaded this to the [docs](/docs) folder.
+
+Before I export the CAD, there are some changes that I want to make. I basically just combined the outer pin guard and the motor flange together, as well as the two individual parts of the motor shaft where the cycloids were mounted on. This will help greatly with assembly:
+
+<img width="1723" height="1053" alt="image" src="https://github.com/user-attachments/assets/4611d641-e51c-46c4-8a24-06957a745a1c" />
+
+After doing that, I exported all of the printed parts as a zip file and also put it in the [docs](/docs) folder. I'm going to link the CAD document in the README rather than exporting the entire assembly as a .STEP file. I also wrote a quick writeup in the README and linked the CAD and BOM. With that I should be ready to submit.
+
+(Thank you reviewers!)
+
+**Total Time Spent: 1.06 Hours**
